@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+   <div id="menu"> 
+        <ul>
+            <li>Home</li>
+            <li class="cerrar-sesion"><a href="includes/logout.php">Cerrar sesión</a></li>
+        </ul>
+    </div>
+
+    <section>
+     <h1>Bienvenido <?php echo $user->getNombre();  ?></h1>
+    </section>   
     
 </body>
 </html>
